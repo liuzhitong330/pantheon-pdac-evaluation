@@ -1,0 +1,40 @@
+													
+	Supplementary Table 1. Tumor characteristics of in-house PDAC scRNA-seq cohort.												
+													
+	Surgically resected tumors												
+	Patient ID	AJCC 8 Stage (TNM)	Tumor Location	Pathology									
+	HT047P1	Stage IB (pT2N0M0)	Head	Adenocarcinoma									
+	H_ZY-1105-07	Stage IV (M1)	Head	 Adenosquamous									
+	H_ZY-1160-06	Stage IIB (pT2N1M0)	Head	 Adenocarcinoma									
+	H_ZY-1174-06	Stage III (pT1cN2M0)	Head	 Adenocarcinoma									
+	HT055P-S1PAG	Stage IIA (pT3N0M0)	Body/Tail	Adenocarcinoma									
+	HT081P1-XB1	Stage IIB (ypT3N1M0)	Body/Tail	Adenocarcinoma									
+													
+	EUS-FNB sample obtained												
+	Patient ID	AJCC 8 Stage (TNM)	Tumor Location	Pathology									
+	WU1	Stage IV (cT2N0M1)	Body/Tail	Adenocarcinoma									
+	WU2	Stage IIA (cT3N0M0)	Body/Tail	Adenocarcinoma									
+	WU3	Stage IIB (cT2N1M0)	Body/Tail	Adenocarcinoma									
+	WU4	Stage IB (cT2N0M0)	Body/Tail	Adenocarcinoma									
+	WU5	Stage IB (cT2N0M0)	Head/Neck/Uncinate	Adenocarcinoma									
+	WU7	Stage IV (cT2N0M1)	Body/Tail	Adenosquamous									
+	WU9	Stage IB (cT2N0M0)	Head/Neck/Uncinate	Adenocarcinoma									
+	WU14	Stage IB (cT2N0M0)	Head/Neck/Uncinate	Adenocarcinoma									
+	WU15	Stage IA (T1 N0 Mx)	Body/Tail	Adenocarcinoma									
+	WU16	Stage IIA (cT3N0M0)	Body/Tail	Adenocarcinoma									
+	WU18	Stage IIA (cT3N0M0)	Body/Tail	Adenocarcinoma									
+	WU22	Stage IIB (T3 N1M0)	Head	Adenocarcinoma									
+	WU23	Stage IIB (T2N1M0)	Body	Adenocarcinoma									
+	WU24	Stage III (T4N0M0)	Body	Adenocarcinoma									
+	WU25	Stage III (T3N2M0)	Uncinate	Adenocarcinoma									
+	WU26	Stage III (T2N2M0)	Body	Adenocarcinoma									
+	WU27	Stage III (T4N0M0)	Body	Adenocarcinoma									
+	WU28	Stage IIB (T3N1M0)	Neck	Adenocarcinoma									
+	WU29	Stage III (T4N0M0)	Uncinate	Adenocarcinoma									
+	WU30	Stage III (T4N1M1)	Body	Adenocarcinoma									
+	WU31	Stage IIB (T2N1M0)	Head	Adenocarcinoma									
+	WU32	Stage IB (T2N0M0)	Head	Adenocarcinoma									
+	WU38	Stage IIB (T2N1M0)	Head/uncinate	Adenocarcinoma									
+	WU39	Stage IB (T2N0M0)	Uncinate	Adenocarcinoma									
+	WU42	Stage IB (T2N0M0)	Head	Adenocarcinoma									
+													

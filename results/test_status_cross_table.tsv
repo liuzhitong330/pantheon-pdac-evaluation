@@ -1,0 +1,4 @@
+original_status	filtered_out	significant	tested_not_significant
+filtered_out	25733	43	76
+significant	153	902	318
+tested_not_significant	932	62	5319

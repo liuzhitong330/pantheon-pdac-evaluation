@@ -1,0 +1,8 @@
+# Observed scientific replay environment, Python 3.12.14; not a new clean-install test.
+numpy==2.5.4
+pandas==3.0.6
+pip==25.0.1
+python-dateutil==3.0.0
+scipy==1.18.1
+six==1.17.0
+tzdata==2026.5

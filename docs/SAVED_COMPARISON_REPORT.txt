@@ -1,0 +1,90 @@
+The completed blind Pantheon round was reused; no Pantheon session or statistical
+model was rerun for this comparison. Its data, QC, inclusion and method choices
+preceded access to your old workflow/results. It was evaluator-assisted: software
+dependencies were provisioned and its pre-DE recommendation to exclude wu16 was
+accepted. Its original plan, amendments, conversations and execution logs remain
+saved. All 92 original project files still match their baseline hashes, sizes
+and modification times.
+
+At FDR < 0.05, with NO fold-change cutoff:
+
+                              Original             Pantheon primary
+Patients                      8                    7 (wu16 excluded)
+Malignant / normal cells      1,983 / 318           1,856 / 249
+Genes tested                  7,686                6,720
+Significant genes             1,373                1,007
+Higher / lower in malignant   692 / 681             553 / 454
+Shared significant genes      902                  902
+Unique significant genes      471                  105
+  Filtered out by the other    153                  43
+  Other tested, nonsignificant 318                  62
+
+The principal gene-level expression patterns agree. Across 6,601 genes tested
+by both, log2 fold changes correlate at r=0.988 (Spearman=0.980), with a median
+absolute difference of 0.067 log2 units. All 1,282 commonly tested genes
+significant in either analysis agree in direction. The 422 direction reversals
+are small, nonsignificant effects (absolute log2FC below 0.43 in both).
+
+For example, both find higher S100P (+7.97/+7.83 original/Pantheon), MIA
+(+8.80/+9.10) and MUC5AC (+5.95/+5.78), and lower NR5A2 (-2.89/-2.95), FOLR1
+(-4.72/-5.01) and CRISP3 (-6.50/-6.80). No prior prose biological conclusion
+was assumed: this assessment uses the actual result tables. These are measured
+expression differences, not evidence that the genes cause malignancy.
+
+Different filtering explains many unique discoveries. Pantheon-only CYP2S1,
+PLAC8, IL2RG and TNS4 each met the original count threshold in only seven of
+16 profiles; the original required eight. They pass Pantheon's seven-patient
+CPM filter. Conversely, original-only SERPINA6, HABP2, ANPEP and TPM2 fail
+Pantheon's filter. Missing tests are not negative findings. Among genes tested
+by both, GABRP remains higher (+3.19 versus +2.65), but adjusted p changes from
+0.000141 to 0.0845. This is weaker statistical evidence, not reversed biology.
+
+The original used paired PyDESeq2 0.4.12; Pantheon independently chose paired,
+robust edgeR 4.4.0 quasi-likelihood testing with TMM normalization and
+filterByExpr. With the SAME eight patients and exactly identical raw
+pseudobulks, saved edgeR results yield 912 discoveries, 888 shared with the
+original. Common-gene effect correlation is 0.9984; median difference is 0.0149.
+Thus normalization, filtering and inference choices explain substantial list
+differences even before the wu16 exclusion. Neither discovery count establishes
+which analysis has better biological accuracy.
+
+Pantheon excluded wu16 before DE because HBB accounts for 80.3% of its malignant
+pseudobulk counts; 103/127 labelled malignant cells have over 50% HBB counts.
+This could reflect contamination or label/composition problems; its cause is
+unresolved. Within edgeR, exclusion changes 912 discoveries to 1,007: 809 are
+shared, 198 gained (39 previously filtered, 159 nonsignificant), and 103 lost
+(9 now filtered, 94 nonsignificant). Saved fixed-gene-mask leave-one-out effects
+closely match the seven-patient primary, supporting an effect of donor removal
+on estimates beyond filter membership. These diagnostics have no new p-values.
+GABARAP illustrates the change: edgeR8 -0.75/FDR 0.164 versus primary7
+-1.04/FDR 0.00708. Exclusion also refits normalization and dispersion; this is
+not a clean attribution to one statistical component.
+
+Other sample choices matter. Saved minimum-five-cell and minimum-20-cell
+sensitivities find 879 and 537 genes, respectively; both retain wu16 and are
+not isolated threshold comparisons with the primary. Minimum five adds wu07
+and basal-rich wu39. Removing wu39 from that cohort changes 879 to 949
+discoveries (801 shared); removing wu07 gives 851 (756 shared). These variations
+limit a claim of one definitive gene list. The primary malignant cells are
+1,837 classical-labelled and only 19 basal-labelled, so the conclusions mainly
+apply to classical-labelled epithelium.
+
+Both workflows already reproduced computationally in saved checks, and this
+comparison confirms exact eight-patient count equality and exact seven-patient
+subsetting. No barcode, pairing or count-aggregation error was found in the
+original. Its >=200-gene / <=25%-mitochondrial QC removed no epithelial cells
+and missed the wu16 composition issue. Its dispersion-trend fallback to a mean
+fit is reproducible and should remain documented. Pantheon's extreme HOXB6
+estimate also deserves caution because comparator counts are zero and adjusted
+residual degrees of freedom approach zero.
+
+"Normal Epithelial" denotes putatively nonmalignant cells annotated within
+tumor biopsies, not healthy-donor controls. Labels partly use expression and
+inferred CNA, so some marker contrasts may reflect the labelling procedure.
+The seven-patient primary and sensitivity analyses do not establish causality,
+a general basal signature, or independent biological replication. Study context:
+https://www.nature.com/articles/s41698-023-00455-z
+
+Full gene lists, filtering reasons, effect sizes, adjusted p-values, patient
+inclusion, sensitivity comparisons, source hashes and executable comparison
+code are beside this report. See README.txt for file meanings and reproduction.

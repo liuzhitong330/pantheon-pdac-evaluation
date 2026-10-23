@@ -1,0 +1,3 @@
+Which genes differ between malignant epithelial cells and the cells annotated as normal epithelial cells in this dataset?
+
+The original count matrices, cell annotations, and available sample metadata are in data/. Inspect these inputs and propose an analysis plan first. Stop after presenting your plan; wait for review before executing the differential-expression analysis. Work within this session directory and use only the supplied dataset inputs.

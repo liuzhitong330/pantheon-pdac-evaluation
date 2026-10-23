@@ -1,0 +1,12 @@
+{
+  "publication_date": "2026-10-23",
+  "scope": "Static packaging/link/hash checks only; no analysis or comparison rerun",
+  "copied_source_files_unchanged": 34,
+  "python_syntax_and_JSON_valid": true,
+  "no_private_home_paths_or_detected_secret_patterns_in_payload": true,
+  "raw_single_cell_datasets_and_private_logs_excluded": true,
+  "archive_members_verified_by_unpacker": 20,
+  "figure_visually_inspected": true,
+  "reference_numbers_verified_against_saved_summary": true,
+  "public_wrappers_clean_environment_replayed": false
+}

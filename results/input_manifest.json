@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "description": "Exact saved inputs required by compare_saved_analyses.py. Contains saved summaries and results; no raw single-cell datasets.",
+  "source_content_preserved": true,
+  "archive": {
+    "file": "comparison_inputs.tar.gz",
+    "bytes": 13247759,
+    "sha256": "a7e0e60dd052cc6488ac4ea2564f6d108f1a4e39da4660b360c6a6f60b42c200"
+  },
+  "member_count": 20,
+  "uncompressed_file_bytes": 85714358,
+  "members": [
+    {
+      "member": "evaluation/round1/outputs/analysis/classical_min10/all_genes_results.tsv",
+      "source_label": "pantheon-evaluation-2026-10-22/round1/outputs/analysis/classical_min10/all_genes_results.tsv",
+      "bytes": 6898006,
+      "sha256": "a366b81ec126de4f6aad1ad7a6d5da6a8f453b2418dd718a62586411339ef45f"
+    },
+    {
+      "member": "evaluation/round1/outputs/analysis/cohort_specifications.tsv",
+      "source_label": "pantheon-evaluation-2026-10-22/round1/outputs/analysis/cohort_specifications.tsv",
+      "bytes": 3420,
+      "sha256": "9f39599632c06d28a60227101fb12d420a2ac34b9da9ece158b35311db4d8e14"
+    },
+    {
+      "member": "evaluation/round1/outputs/analysis/loo_original8_without_wu16/all_genes_results.tsv",
+      "source_label": "pantheon-evaluation-2026-10-22/round1/outputs/analysis/loo_original8_without_wu16/all_genes_results.tsv",
+      "bytes": 7502092,
+      "sha256": "8c8cc89798702d402aff9b45dcb517a27ebaa701d3da7edc115dd560c0c10ff5"
+    },
+    {
+      "member": "evaluation/round1/outputs/analysis/primary7_min10_no_wu16/all_genes_results.tsv",
+      "source_label": "pantheon-evaluation-2026-10-22/round1/outputs/analysis/primary7_min10_no_wu16/all_genes_results.tsv",
+      "bytes": 7472168,
+      "sha256": "1c25525a47ff10fca8effb8c70fad4f02ccfb2f51d9595f412d3b69562c4a9ec"
+    },
+    {
+      "member": "evaluation/round1/outputs/analysis/primary7_min10_no_wu16/filter_parameters.tsv",
+      "source_label": "pantheon-evaluation-2026-10-22/round1/outputs/analysis/primary7_min10_no_wu16/filter_parameters.tsv",
+      "bytes": 258,
+      "sha256": "a0cc1af46e66ee64bc29788fc249617a0c125ea0372a7c08fdad61875931eff3"
+    },
+    {
+      "member": "evaluation/round1/outputs/analysis/primary7_min10_no_wu16/metadata.tsv",
+      "source_label": "pantheon-evaluation-2026-10-22/round1/outputs/analysis/primary7_min10_no_wu16/metadata.tsv",
+      "bytes": 4450,
+      "sha256": "6b89668ba1377a61517d68d036626f989ecf35bf2833cbf58f1321d336735043"
+    },
+    {
+      "member": "evaluation/round1/outputs/analysis/primary7_min10_no_wu16/raw_counts.tsv.gz",
+      "source_label": "pantheon-evaluation-2026-10-22/round1/outputs/analysis/primary7_min10_no_wu16/raw_counts.tsv.gz",
+      "bytes": 416336,
+      "sha256": "35bd1883b82ef54d5debab0f32e9e4adbd7cd3dea3cdf1479a4f5b881d427730"
+    },
+    {
+      "member": "evaluation/round1/outputs/analysis/primary_all_genes_annotated.tsv",
+      "source_label": "pantheon-evaluation-2026-10-22/round1/outputs/analysis/primary_all_genes_annotated.tsv",
+      "bytes": 18734216,
+      "sha256": "0fdd5fd82883433c54a225ce1d4b364f7b53005e94c8fbb66e96c8b4050857d0"
+    },
+    {
+      "member": "evaluation/round1/outputs/analysis/qc_original8_min10_with_wu16/all_genes_results.tsv",
+      "source_label": "pantheon-evaluation-2026-10-22/round1/outputs/analysis/qc_original8_min10_with_wu16/all_genes_results.tsv",
+      "bytes": 7797297,
+      "sha256": "5f5ffc73502caa388d7422aa43ef3c1e712f152ec85c812b7dd555aac0903646"
+    },
+    {
+      "member": "evaluation/round1/outputs/analysis/qc_original8_min10_with_wu16/raw_counts.tsv.gz",
+      "source_label": "pantheon-evaluation-2026-10-22/round1/outputs/analysis/qc_original8_min10_with_wu16/raw_counts.tsv.gz",
+      "bytes": 449202,
+      "sha256": "b049ad3b78ef77ed27bbffa39afeeb3056de76195484389caab5fd9faaeb1a0d"
+    },
+    {
+      "member": "evaluation/round1/outputs/analysis/sensitivity_min20/all_genes_results.tsv",
+      "source_label": "pantheon-evaluation-2026-10-22/round1/outputs/analysis/sensitivity_min20/all_genes_results.tsv",
+      "bytes": 7289967,
+      "sha256": "7066f7a6d6932d0bc33439e0b66f14c22762f136d5ea8e6958492990c645e559"
+    },
+    {
+      "member": "evaluation/round1/outputs/analysis/sensitivity_min5/all_genes_results.tsv",
+      "source_label": "pantheon-evaluation-2026-10-22/round1/outputs/analysis/sensitivity_min5/all_genes_results.tsv",
+      "bytes": 7015286,
+      "sha256": "98a85e3f1ece18ea202aba7b0e1c24702e22e5e2222510baec3f4940116d4d0b"
+    },
+    {
+      "member": "evaluation/round1/outputs/analysis/sensitivity_min5_without_wu07/all_genes_results.tsv",
+      "source_label": "pantheon-evaluation-2026-10-22/round1/outputs/analysis/sensitivity_min5_without_wu07/all_genes_results.tsv",
+      "bytes": 7952080,
+      "sha256": "7c511b6a4aa404f885bc575b8b8b0fd3f4041c4db871a95d1cd6230c6e64fbaa"
+    },
+    {
+      "member": "evaluation/round1/outputs/analysis/sensitivity_min5_without_wu39/all_genes_results.tsv",
+      "source_label": "pantheon-evaluation-2026-10-22/round1/outputs/analysis/sensitivity_min5_without_wu39/all_genes_results.tsv",
+      "bytes": 7937661,
+      "sha256": "f0550fdeacba5a947b80e994ff2e757d24df51bdab399eefd1ead2b8d2b46a0f"
+    },
+    {
+      "member": "evaluation/round1/outputs/preparation/sample_eligibility.tsv",
+      "source_label": "pantheon-evaluation-2026-10-22/round1/outputs/preparation/sample_eligibility.tsv",
+      "bytes": 2727,
+      "sha256": "e5610cf8249e106e009763e8a054fc45af8c71d1e0f868847cecf0b53372bfca"
+    },
+    {
+      "member": "reference/pdac_de_all.csv",
+      "source_label": "pdac-practice/pdac_de_all.csv",
+      "bytes": 1549667,
+      "sha256": "e3969a125d7f14b641dab47d28a4ce4b5f4b4e62c6ea2578bdd756a029d01112"
+    },
+    {
+      "member": "reference/pdac_de_gene_filter.csv",
+      "source_label": "pdac-practice/pdac_de_gene_filter.csv",
+      "bytes": 469188,
+      "sha256": "e87ee7d981e76d7ac819892de4a20ff93cc4ff9cbe7fdf342a9df42151ba9470"
+    },
+    {
+      "member": "reference/pdac_pseudobulk_counts.csv",
+      "source_label": "pdac-practice/pdac_pseudobulk_counts.csv",
+      "bytes": 1507095,
+      "sha256": "2217c514214b264dbf8ded05147f5a2b5bb5168d5e3c222ddc1b562a0762a88b"
+    },
+    {
+      "member": "reference/pdac_pseudobulk_genes.csv",
+      "source_label": "pdac-practice/pdac_pseudobulk_genes.csv",
+      "bytes": 2712387,
+      "sha256": "af0be2457ba90919bf44d479e82b9b6094b245046be493871eb719d7e55cbca8"
+    },
+    {
+      "member": "reference/pdac_pseudobulk_metadata.csv",
+      "source_label": "pdac-practice/pdac_pseudobulk_metadata.csv",
+      "bytes": 855,
+      "sha256": "2b317dda1d5aa375ee37ad09bdf57037dda5a6d18470534b6d7ffba669dc6be1"
+    }
+  ]
+}

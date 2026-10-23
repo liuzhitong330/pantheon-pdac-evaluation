@@ -1,0 +1,4 @@
+edgeR8_status	filtered_out	significant	tested_not_significant
+filtered_out	26732	39	106
+significant	9	809	94
+tested_not_significant	77	159	5513

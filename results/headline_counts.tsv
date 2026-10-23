@@ -1,0 +1,3 @@
+analysis	tested	FDR_lt_0.05	higher_in_malignant	lower_in_malignant
+Original PyDESeq2, 8 patients	7686	1373	692	681
+Pantheon edgeR primary, 7 patients	6720	1007	553	454

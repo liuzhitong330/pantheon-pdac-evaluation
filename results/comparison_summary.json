@@ -1,0 +1,165 @@
+{
+  "comparison_type": "Independent evaluator; saved results only, no model refits",
+  "gene_key": "unique Ensembl ID",
+  "FDR_threshold": "<0.05",
+  "fold_change_cutoff": null,
+  "direction": "positive log2FC means higher in malignant than annotated normal epithelial cells",
+  "n_genes_in_input": 33538,
+  "original_tested": 7686,
+  "pantheon_tested": 6720,
+  "common_tested": 6601,
+  "original_only_tested": 1085,
+  "pantheon_only_tested": 119,
+  "neither_tested": 25733,
+  "original_significant": 1373,
+  "pantheon_significant": 1007,
+  "shared_significant": 902,
+  "original_only_significant": 471,
+  "pantheon_only_significant": 105,
+  "original_only_split_by_pantheon_status": {
+    "tested_not_significant": 318,
+    "filtered_out": 153
+  },
+  "pantheon_only_split_by_original_status": {
+    "tested_not_significant": 62,
+    "filtered_out": 43
+  },
+  "effect_agreement": {
+    "common_tested": {
+      "n": 6601,
+      "pearson": 0.9879749732771475,
+      "spearman": 0.9795269984767883,
+      "same_sign": 6179,
+      "opposite_sign": 422,
+      "median_absolute_log2FC_difference": 0.0669689867506183,
+      "mean_absolute_log2FC_difference": 0.08861687140572504,
+      "p90_absolute_log2FC_difference": 0.17537747124880232,
+      "p95_absolute_log2FC_difference": 0.26305179668006806,
+      "max_absolute_log2FC_difference": 1.3164912220072305
+    },
+    "shared_significant": {
+      "n": 902,
+      "pearson": 0.9968908782745034,
+      "spearman": 0.9934021493994877,
+      "same_sign": 902,
+      "opposite_sign": 0,
+      "median_absolute_log2FC_difference": 0.07099635555660705,
+      "mean_absolute_log2FC_difference": 0.10087558125439382,
+      "p90_absolute_log2FC_difference": 0.21719231829373353,
+      "p95_absolute_log2FC_difference": 0.2936583855624154,
+      "max_absolute_log2FC_difference": 1.1683267052244783
+    },
+    "significant_in_either_and_tested_in_both": {
+      "n": 1282,
+      "pearson": 0.9960706180575466,
+      "spearman": 0.9904799005915381,
+      "same_sign": 1282,
+      "opposite_sign": 0,
+      "median_absolute_log2FC_difference": 0.07259597720325706,
+      "mean_absolute_log2FC_difference": 0.10170248982985833,
+      "p90_absolute_log2FC_difference": 0.22471956447358496,
+      "p95_absolute_log2FC_difference": 0.3054895169276427,
+      "max_absolute_log2FC_difference": 1.1683267052244783
+    },
+    "both_absolute_log2FC_at_least_0.5": {
+      "n": 2182,
+      "pearson": 0.9936420632600362,
+      "spearman": 0.9784915639004674,
+      "same_sign": 2182,
+      "opposite_sign": 0,
+      "median_absolute_log2FC_difference": 0.07216922771272094,
+      "mean_absolute_log2FC_difference": 0.10163255605640578,
+      "p90_absolute_log2FC_difference": 0.21410547889927264,
+      "p95_absolute_log2FC_difference": 0.3067780784656862,
+      "max_absolute_log2FC_difference": 1.3164912220072305
+    }
+  },
+  "direction_flip_diagnostics": {
+    "n": 422,
+    "max_abs_original_log2FC": 0.428244771113483,
+    "max_abs_pantheon_log2FC": 0.372009148366936,
+    "minimum_original_FDR": 0.6212594887436858,
+    "minimum_pantheon_FDR": 0.27435400439312
+  },
+  "wu16_exclusion": {
+    "edgeR8_significant": 912,
+    "shared_edgeR8_primary7_significant": 809,
+    "primary7_only_vs_edgeR8": 198,
+    "edgeR8_only_vs_primary7": 103,
+    "edgeR8_vs_primary7_effects": {
+      "n": 6575,
+      "pearson": 0.9885123852920927,
+      "spearman": 0.9757687515340309,
+      "same_sign": 6096,
+      "opposite_sign": 479,
+      "median_absolute_log2FC_difference": 0.07792434505254098,
+      "mean_absolute_log2FC_difference": 0.09543178490038921,
+      "p90_absolute_log2FC_difference": 0.17850653758391652,
+      "p95_absolute_log2FC_difference": 0.24268666498053276,
+      "max_absolute_log2FC_difference": 1.0273533600712
+    },
+    "edgeR8_vs_fixed_mask_without_wu16_effects": {
+      "n": 6661,
+      "pearson": 0.9885047096052191,
+      "spearman": 0.9753473257935915,
+      "same_sign": 6173,
+      "opposite_sign": 488,
+      "median_absolute_log2FC_difference": 0.07791315034175506,
+      "mean_absolute_log2FC_difference": 0.09578990569163495,
+      "p90_absolute_log2FC_difference": 0.17891977542189985,
+      "p95_absolute_log2FC_difference": 0.24480852395757,
+      "max_absolute_log2FC_difference": 1.0285419966967
+    },
+    "primary7_vs_fixed_mask_without_wu16_effects": {
+      "n": 6575,
+      "pearson": 0.9999998654689932,
+      "spearman": 0.999999525600344,
+      "same_sign": 6572,
+      "opposite_sign": 3,
+      "median_absolute_log2FC_difference": 0.0006266518575279711,
+      "mean_absolute_log2FC_difference": 0.0006172022398792003,
+      "p90_absolute_log2FC_difference": 0.0010165766100828325,
+      "p95_absolute_log2FC_difference": 0.0010941941047499701,
+      "max_absolute_log2FC_difference": 0.005106943225854033
+    },
+    "interpretation": "Saved sensitivity only. Exclusion refits normalization/dispersion and changes independent abundance filtering. Fixed-mask leave-one-out supplies effects only, no discovery p-values."
+  },
+  "pseudobulk_input_validation": {
+    "qc_original8_min10_with_wu16": {
+      "shape_genes_by_profiles": [
+        33538,
+        16
+      ],
+      "exact_original_subset": true,
+      "total_counts": 37124925,
+      "different_entries": 0
+    },
+    "primary7_min10_no_wu16": {
+      "shape_genes_by_profiles": [
+        33538,
+        14
+      ],
+      "exact_original_subset": true,
+      "total_counts": 35145174,
+      "different_entries": 0
+    }
+  },
+  "original_patients": [
+    "wu03",
+    "wu15",
+    "wu16",
+    "wu26",
+    "wu27",
+    "wu28",
+    "wu29",
+    "wu42"
+  ],
+  "original_cells": {
+    "Malignant": 1983,
+    "Normal_epithelial": 318
+  },
+  "pantheon_cells": {
+    "Malignant": 1856,
+    "Normal": 249
+  }
+}

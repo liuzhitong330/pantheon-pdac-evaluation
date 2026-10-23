@@ -1,0 +1,26 @@
+sample_id	patient_id	pathology	n_Malignant	n_Normal	n_Classical	n_Basal	eligible_min5	reason_min5	eligible_min10	reason_min10	eligible_min20	reason_min20	eligible_classical_min10	included_primary7_min10_no_wu16	included_qc_original8_min10_with_wu16	included_sensitivity_min5	included_sensitivity_min20	included_classical_min10	included_sensitivity_min5_without_wu39	included_sensitivity_min5_without_wu07	included_original	primary_exclusion_reason
+wu01	WU1	Adenocarcinoma	36	1	36	0	False	Normal_below_5	False	Normal_below_10	False	Normal_below_20	False	False	False	False	False	False	False	False	False	Normal_below_10
+wu02	WU2	Adenocarcinoma	194	1	191	3	False	Normal_below_5	False	Normal_below_10	False	Normal_below_20	False	False	False	False	False	False	False	False	False	Normal_below_10
+wu03	WU3	Adenocarcinoma	527	20	526	1	True	eligible	True	eligible	True	eligible	True	True	True	True	True	True	True	True	True	included
+wu04	WU4	Adenocarcinoma	45	3	24	21	False	Normal_below_5	False	Normal_below_10	False	Normal_below_20	False	False	False	False	False	False	False	False	False	Normal_below_10
+wu05	WU5	Adenocarcinoma	458	1	457	1	False	Normal_below_5	False	Normal_below_10	False	Normal_below_20	False	False	False	False	False	False	False	False	False	Normal_below_10
+wu07	WU7	Adenosquamous	531	9	421	110	True	eligible	False	Normal_below_10	False	Normal_below_20	False	False	False	True	False	False	True	False	False	Normal_below_10
+wu09	WU9	Adenocarcinoma	80	1	80	0	False	Normal_below_5	False	Normal_below_10	False	Normal_below_20	False	False	False	False	False	False	False	False	False	Normal_below_10
+wu14	WU14	Adenocarcinoma	139	1	139	0	False	Normal_below_5	False	Normal_below_10	False	Normal_below_20	False	False	False	False	False	False	False	False	False	Normal_below_10
+wu15	WU15	Adenocarcinoma	26	15	24	2	True	eligible	True	eligible	False	Normal_below_20	True	True	True	True	False	True	True	True	True	included
+wu16	WU16	Adenocarcinoma	127	69	127	0	True	eligible	True	eligible	True	eligible	True	False	True	True	True	True	True	True	True	pre-DE hemoglobin/composition QC; entire pair excluded
+wu18	WU18	Adenocarcinoma	126	0	126	0	False	Normal_below_5	False	Normal_below_10	False	Normal_below_20	False	False	False	False	False	False	False	False	False	Normal_below_10
+wu22	WU22	Adenocarcinoma	240	1	239	1	False	Normal_below_5	False	Normal_below_10	False	Normal_below_20	False	False	False	False	False	False	False	False	False	Normal_below_10
+wu23	WU23	Adenocarcinoma	165	0	165	0	False	Normal_below_5	False	Normal_below_10	False	Normal_below_20	False	False	False	False	False	False	False	False	False	Normal_below_10
+wu24	WU24	Adenocarcinoma	295	3	295	0	False	Normal_below_5	False	Normal_below_10	False	Normal_below_20	False	False	False	False	False	False	False	False	False	Normal_below_10
+wu25	WU25	Adenocarcinoma	28	0	27	1	False	Normal_below_5	False	Normal_below_10	False	Normal_below_20	False	False	False	False	False	False	False	False	False	Normal_below_10
+wu26	WU26	Adenocarcinoma	258	24	247	11	True	eligible	True	eligible	True	eligible	True	True	True	True	True	True	True	True	True	included
+wu27	WU27	Adenocarcinoma	53	104	48	5	True	eligible	True	eligible	True	eligible	True	True	True	True	True	True	True	True	True	included
+wu28	WU28	Adenocarcinoma	700	12	700	0	True	eligible	True	eligible	False	Normal_below_20	True	True	True	True	False	True	True	True	True	included
+wu29	WU29	Adenocarcinoma	16	29	16	0	True	eligible	True	eligible	False	Malignant_below_20	True	True	True	True	False	True	True	True	True	included
+wu30	WU30	Adenocarcinoma	392	2	392	0	False	Normal_below_5	False	Normal_below_10	False	Normal_below_20	False	False	False	False	False	False	False	False	False	Normal_below_10
+wu31	WU31	Adenocarcinoma	8	0	8	0	False	Normal_below_5	False	Malignant_below_10;Normal_below_10	False	Malignant_below_20;Normal_below_20	False	False	False	False	False	False	False	False	False	Malignant_below_10;Normal_below_10
+wu32	WU32	Adenocarcinoma	225	3	225	0	False	Normal_below_5	False	Normal_below_10	False	Normal_below_20	False	False	False	False	False	False	False	False	False	Normal_below_10
+wu38	WU38	Adenocarcinoma	21	1	20	1	False	Normal_below_5	False	Normal_below_10	False	Normal_below_20	False	False	False	False	False	False	False	False	False	Normal_below_10
+wu39	WU39	Adenocarcinoma	5817	5	851	4966	True	eligible	False	Normal_below_10	False	Normal_below_20	False	False	False	True	False	False	False	True	False	Normal_below_10
+wu42	WU42	Adenocarcinoma	276	45	276	0	True	eligible	True	eligible	True	eligible	True	True	True	True	True	True	True	True	True	included

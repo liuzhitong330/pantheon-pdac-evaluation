@@ -1,0 +1,311 @@
+{
+  "description": "Allowlisted source files copied from the completed evaluation; originals are not modified. Source paths are relative to the evaluation root. No new model run.",
+  "files": [
+    {
+      "source_root": "evaluation",
+      "source_path": "round1/outputs/analysis/code/rerun_inspection.py",
+      "public_path": "workflows/pantheon/outputs/analysis/code/rerun_inspection.py",
+      "role": "Pantheon-generated scientific replay",
+      "source_sha256": "5d422451ed91539290a9a4aa45b3ce77792c9ab020c5152ae84cbdcce5cfe27a",
+      "public_sha256": "5d422451ed91539290a9a4aa45b3ce77792c9ab020c5152ae84cbdcce5cfe27a",
+      "changes": "none"
+    },
+    {
+      "source_root": "evaluation",
+      "source_path": "round1/outputs/analysis/code/rerun_prepare_counts.py",
+      "public_path": "workflows/pantheon/outputs/analysis/code/rerun_prepare_counts.py",
+      "role": "Pantheon-generated scientific replay",
+      "source_sha256": "5273f1e60a0d7c5a2ddcd99459086a59cc17fa2a135214baceab547f611bdfbb",
+      "public_sha256": "5273f1e60a0d7c5a2ddcd99459086a59cc17fa2a135214baceab547f611bdfbb",
+      "changes": "none"
+    },
+    {
+      "source_root": "evaluation",
+      "source_path": "round1/outputs/analysis/code/rerun_validate_and_review.py",
+      "public_path": "workflows/pantheon/outputs/analysis/code/rerun_validate_and_review.py",
+      "role": "Pantheon-generated scientific replay",
+      "source_sha256": "e4d78d0b5d319f581fdb93262771a99fa19365120d2ed59fb11bdea86d044a4d",
+      "public_sha256": "e4d78d0b5d319f581fdb93262771a99fa19365120d2ed59fb11bdea86d044a4d",
+      "changes": "none"
+    },
+    {
+      "source_root": "evaluation",
+      "source_path": "round1/outputs/analysis/code/run_edger.R",
+      "public_path": "workflows/pantheon/outputs/analysis/code/run_edger.R",
+      "role": "Pantheon-generated scientific replay",
+      "source_sha256": "6000c9bd59dfea3120768522bd1c8df9db45da4c9705b37caf061f7d92c09340",
+      "public_sha256": "6000c9bd59dfea3120768522bd1c8df9db45da4c9705b37caf061f7d92c09340",
+      "changes": "none"
+    },
+    {
+      "source_root": "evaluation",
+      "source_path": "round1/outputs/analysis/code/audit_fits.R",
+      "public_path": "workflows/pantheon/outputs/analysis/code/audit_fits.R",
+      "role": "Pantheon-generated scientific replay",
+      "source_sha256": "27c2808b5ba94e94233dc4be36c803857aaa015d7ed32070e4122ca94a1dea92",
+      "public_sha256": "27c2808b5ba94e94233dc4be36c803857aaa015d7ed32070e4122ca94a1dea92",
+      "changes": "none"
+    },
+    {
+      "source_root": "evaluation",
+      "source_path": "round1/outputs/analysis/code/summarize_results.py",
+      "public_path": "workflows/pantheon/outputs/analysis/code/summarize_results.py",
+      "role": "Pantheon-generated scientific replay",
+      "source_sha256": "a3ccc2421d965ed0d47243b718d7246a084579355f2bd54ddec2da4d3ea653e7",
+      "public_sha256": "a3ccc2421d965ed0d47243b718d7246a084579355f2bd54ddec2da4d3ea653e7",
+      "changes": "none"
+    },
+    {
+      "source_root": "evaluation",
+      "source_path": "round1/outputs/analysis/code/add_presentation_plots.R",
+      "public_path": "workflows/pantheon/outputs/analysis/code/add_presentation_plots.R",
+      "role": "Pantheon-generated scientific replay",
+      "source_sha256": "1149abeeda791d9723ee9f67a0d4e3763b46cf84e6df8a5e265e181e386c60af",
+      "public_sha256": "1149abeeda791d9723ee9f67a0d4e3763b46cf84e6df8a5e265e181e386c60af",
+      "changes": "none"
+    },
+    {
+      "source_root": "evaluation",
+      "source_path": "round1/outputs/analysis/rerun_from_raw.sh",
+      "public_path": "workflows/pantheon/outputs/analysis/rerun_from_raw.sh",
+      "role": "Pantheon saved replay/configuration",
+      "source_sha256": "f41a5696a4bdcea891fc97dd2f47a02947296d4933bb844fd4e86908ffb206c8",
+      "public_sha256": "f41a5696a4bdcea891fc97dd2f47a02947296d4933bb844fd4e86908ffb206c8",
+      "changes": "none"
+    },
+    {
+      "source_root": "evaluation",
+      "source_path": "round1/outputs/analysis/cohort_specifications.tsv",
+      "public_path": "workflows/pantheon/outputs/analysis/cohort_specifications.tsv",
+      "role": "Pantheon saved replay/configuration",
+      "source_sha256": "9f39599632c06d28a60227101fb12d420a2ac34b9da9ece158b35311db4d8e14",
+      "public_sha256": "9f39599632c06d28a60227101fb12d420a2ac34b9da9ece158b35311db4d8e14",
+      "changes": "none"
+    },
+    {
+      "source_root": "evaluation",
+      "source_path": "round1/outputs/analysis/PLAN_AMENDMENT_2026-10-22.md",
+      "public_path": "workflows/pantheon/outputs/analysis/PLAN_AMENDMENT_2026-10-22.md",
+      "role": "Pantheon saved replay/configuration",
+      "source_sha256": "d0feb7bd1e606ff8de0ae27963a46a8489886fa906fa1dd4c5cb4611f614f048",
+      "public_sha256": "d0feb7bd1e606ff8de0ae27963a46a8489886fa906fa1dd4c5cb4611f614f048",
+      "changes": "none"
+    },
+    {
+      "source_root": "evaluation",
+      "source_path": "round2/reproduction/scripts/01_load_epithelial.py",
+      "public_path": "workflows/reference/reproduction/scripts/01_load_epithelial.py",
+      "role": "Reference workflow: saved Pantheon path-only reproduction copy",
+      "source_sha256": "c79ff42f20fbd6995d124362d1344794292e2cb72901bed965eca15c9628a132",
+      "public_sha256": "c79ff42f20fbd6995d124362d1344794292e2cb72901bed965eca15c9628a132",
+      "changes": "none"
+    },
+    {
+      "source_root": "evaluation",
+      "source_path": "round2/reproduction/scripts/02_qc_epithelial.py",
+      "public_path": "workflows/reference/reproduction/scripts/02_qc_epithelial.py",
+      "role": "Reference workflow: saved Pantheon path-only reproduction copy",
+      "source_sha256": "f47db48e58495b71bb0fbec58819b2775c243a1217a68a73bdb0d3eed920e79d",
+      "public_sha256": "f47db48e58495b71bb0fbec58819b2775c243a1217a68a73bdb0d3eed920e79d",
+      "changes": "none"
+    },
+    {
+      "source_root": "evaluation",
+      "source_path": "round2/reproduction/scripts/03_pseudobulk.py",
+      "public_path": "workflows/reference/reproduction/scripts/03_pseudobulk.py",
+      "role": "Reference workflow: saved Pantheon path-only reproduction copy",
+      "source_sha256": "177e614fdbe68d82d33ecb82417f7256be156fa07b2485667cc27328c0356675",
+      "public_sha256": "177e614fdbe68d82d33ecb82417f7256be156fa07b2485667cc27328c0356675",
+      "changes": "none"
+    },
+    {
+      "source_root": "evaluation",
+      "source_path": "round2/reproduction/scripts/04_paired_de.py",
+      "public_path": "workflows/reference/reproduction/scripts/04_paired_de.py",
+      "role": "Reference workflow: saved Pantheon path-only reproduction copy",
+      "source_sha256": "ba2148614395f436d6bc74df7055a752abc881da664d9af426076f49c88dff85",
+      "public_sha256": "ba2148614395f436d6bc74df7055a752abc881da664d9af426076f49c88dff85",
+      "changes": "none"
+    },
+    {
+      "source_root": "evaluation",
+      "source_path": "controller/comparison/headline_counts.tsv",
+      "public_path": "results/headline_counts.tsv",
+      "role": "Codex evaluator comparison of saved results",
+      "source_sha256": "1e028d5908a68726aea3b5384e8c23817379494846be0e8addcb5dd18adc8290",
+      "public_sha256": "1e028d5908a68726aea3b5384e8c23817379494846be0e8addcb5dd18adc8290",
+      "changes": "none"
+    },
+    {
+      "source_root": "evaluation",
+      "source_path": "controller/comparison/shared_significant_genes.tsv",
+      "public_path": "results/shared_significant_genes.tsv",
+      "role": "Codex evaluator comparison of saved results",
+      "source_sha256": "63dd0f97a8c53ab0c1c5a122511cf168b2dfc653a66bb0943107bb47c0b45bb9",
+      "public_sha256": "63dd0f97a8c53ab0c1c5a122511cf168b2dfc653a66bb0943107bb47c0b45bb9",
+      "changes": "none"
+    },
+    {
+      "source_root": "evaluation",
+      "source_path": "controller/comparison/original_only_significant_genes.tsv",
+      "public_path": "results/original_only_significant_genes.tsv",
+      "role": "Codex evaluator comparison of saved results",
+      "source_sha256": "524fb02f19b0f9ac47020790d4e364180569c5cdc2a2604cf90828dc52427d2c",
+      "public_sha256": "524fb02f19b0f9ac47020790d4e364180569c5cdc2a2604cf90828dc52427d2c",
+      "changes": "none"
+    },
+    {
+      "source_root": "evaluation",
+      "source_path": "controller/comparison/pantheon_only_significant_genes.tsv",
+      "public_path": "results/pantheon_only_significant_genes.tsv",
+      "role": "Codex evaluator comparison of saved results",
+      "source_sha256": "77d769c23691d1217ef8fe5085a0a31026e19bfc0718ad507942170d75ae94fa",
+      "public_sha256": "77d769c23691d1217ef8fe5085a0a31026e19bfc0718ad507942170d75ae94fa",
+      "changes": "none"
+    },
+    {
+      "source_root": "evaluation",
+      "source_path": "controller/comparison/patient_inclusion_comparison.tsv",
+      "public_path": "results/patient_inclusion_comparison.tsv",
+      "role": "Codex evaluator comparison of saved results",
+      "source_sha256": "5fe24c7bc1595c56105dee17a122ace2c1e3dde5dc936dbb6bcd69b49d48c2b2",
+      "public_sha256": "5fe24c7bc1595c56105dee17a122ace2c1e3dde5dc936dbb6bcd69b49d48c2b2",
+      "changes": "none"
+    },
+    {
+      "source_root": "evaluation",
+      "source_path": "controller/comparison/test_status_cross_table.tsv",
+      "public_path": "results/test_status_cross_table.tsv",
+      "role": "Codex evaluator comparison of saved results",
+      "source_sha256": "905ac383a61f9bdfd82f350a0b329cf5fc4a4e028cbe923b43c702e8754ebb6c",
+      "public_sha256": "905ac383a61f9bdfd82f350a0b329cf5fc4a4e028cbe923b43c702e8754ebb6c",
+      "changes": "none"
+    },
+    {
+      "source_root": "evaluation",
+      "source_path": "controller/comparison/saved_cohort_comparisons.tsv",
+      "public_path": "results/saved_cohort_comparisons.tsv",
+      "role": "Codex evaluator comparison of saved results",
+      "source_sha256": "6fbd346743eaa8d3e3ec4d9740eb9fd7f9016a50a49c23d758b9b894460938cd",
+      "public_sha256": "6fbd346743eaa8d3e3ec4d9740eb9fd7f9016a50a49c23d758b9b894460938cd",
+      "changes": "none"
+    },
+    {
+      "source_root": "evaluation",
+      "source_path": "controller/comparison/sample_and_subtype_sensitivity_comparisons.tsv",
+      "public_path": "results/sample_and_subtype_sensitivity_comparisons.tsv",
+      "role": "Codex evaluator comparison of saved results",
+      "source_sha256": "2836c2770661ea70192dcea0b28dcf7b8b2bf7b2f7c23d124442e3f2f860f7b0",
+      "public_sha256": "2836c2770661ea70192dcea0b28dcf7b8b2bf7b2f7c23d124442e3f2f860f7b0",
+      "changes": "none"
+    },
+    {
+      "source_root": "evaluation",
+      "source_path": "controller/comparison/wu16_exclusion_status_transitions.tsv",
+      "public_path": "results/wu16_exclusion_status_transitions.tsv",
+      "role": "Codex evaluator comparison of saved results",
+      "source_sha256": "d17019f43ce2f708b0b328f358a488bd39076cd0338deb0396f4790dca4ac3fb",
+      "public_sha256": "d17019f43ce2f708b0b328f358a488bd39076cd0338deb0396f4790dca4ac3fb",
+      "changes": "none"
+    },
+    {
+      "source_root": "evaluation",
+      "source_path": "controller/comparison/representative_gene_examples.tsv",
+      "public_path": "results/representative_gene_examples.tsv",
+      "role": "Codex evaluator comparison of saved results",
+      "source_sha256": "446de5243d1fc082a231c33326378cee9c9ed449ef91f3700bcbd5fdded751af",
+      "public_sha256": "446de5243d1fc082a231c33326378cee9c9ed449ef91f3700bcbd5fdded751af",
+      "changes": "none"
+    },
+    {
+      "source_root": "evaluation",
+      "source_path": "controller/comparison/comparison_summary.json",
+      "public_path": "results/comparison_summary.json",
+      "role": "Codex evaluator comparison of saved results",
+      "source_sha256": "aa8f4d5a11a741c5116745a1e2f0a6f91265b26617285f4d0ad173870cd3ea1b",
+      "public_sha256": "aa8f4d5a11a741c5116745a1e2f0a6f91265b26617285f4d0ad173870cd3ea1b",
+      "changes": "none"
+    },
+    {
+      "source_root": "evaluation",
+      "source_path": "controller/comparison/comparison_overview.png",
+      "public_path": "figures/comparison_overview.png",
+      "role": "Codex evaluator saved scientific figure",
+      "source_sha256": "4cd6938f855268b887eace1b33af0a2f87bf2f6b6af2facaf35b90cc0ea183ea",
+      "public_sha256": "4cd6938f855268b887eace1b33af0a2f87bf2f6b6af2facaf35b90cc0ea183ea",
+      "changes": "none"
+    },
+    {
+      "source_root": "evaluation",
+      "source_path": "controller/comparison/comparison_overview.pdf",
+      "public_path": "figures/comparison_overview.pdf",
+      "role": "Codex evaluator saved scientific figure",
+      "source_sha256": "9b28e5678fe017ea96cdc26751d8432b52254427fcd276f85415596f589fcb28",
+      "public_sha256": "9b28e5678fe017ea96cdc26751d8432b52254427fcd276f85415596f589fcb28",
+      "changes": "none"
+    },
+    {
+      "source_root": "evaluation",
+      "source_path": "round1/initial_prompt.txt",
+      "public_path": "protocol/blind_initial_prompt.txt",
+      "role": "Pantheon input prompt",
+      "source_sha256": "ea0ddef95ecde407762bcc234ee18d678e22d38df72ec5e5968056a81acdc6a6",
+      "public_sha256": "ea0ddef95ecde407762bcc234ee18d678e22d38df72ec5e5968056a81acdc6a6",
+      "changes": "none"
+    },
+    {
+      "source_root": "evaluation",
+      "source_path": "controller/audit/blind_initial_analysis_plan.txt",
+      "public_path": "protocol/blind_initial_plan.txt",
+      "role": "Pantheon initial plan, saved before corrections",
+      "source_sha256": "6b27e7e171acd559c60f6ee8da4b0e0bae4b3ff558d6a394a2d2d5c5f5cf5e8a",
+      "public_sha256": "6b27e7e171acd559c60f6ee8da4b0e0bae4b3ff558d6a394a2d2d5c5f5cf5e8a",
+      "changes": "none"
+    },
+    {
+      "source_root": "evaluation",
+      "source_path": "round1/outputs/preparation/QC_REPORT.md",
+      "public_path": "protocol/pantheon_pre_DE_QC.md",
+      "role": "Pantheon pre-DE QC report",
+      "source_sha256": "3a871ccb4f0ada206b029843cba0a757e5bf3a73e1485f2f212d0d6e1378a4ac",
+      "public_sha256": "3a871ccb4f0ada206b029843cba0a757e5bf3a73e1485f2f212d0d6e1378a4ac",
+      "changes": "none"
+    },
+    {
+      "source_root": "evaluation",
+      "source_path": "controller/comparison/COMPARISON_REPORT.txt",
+      "public_path": "docs/SAVED_COMPARISON_REPORT.txt",
+      "role": "Codex saved comparison report",
+      "source_sha256": "07e709b4080af5890bb3eee0a7477153b9d3d938718754bf1ca2e326354dd297",
+      "public_sha256": "07e709b4080af5890bb3eee0a7477153b9d3d938718754bf1ca2e326354dd297",
+      "changes": "none"
+    },
+    {
+      "source_root": "evaluation",
+      "source_path": "round1/data/sample_metadata/GSE242230_sample_records.soft",
+      "public_path": "data/metadata/GSE242230_sample_records.soft",
+      "role": "Public-study metadata supplied to Pantheon",
+      "source_sha256": "b36390e4eb0ee77cd1a30858ebaf75308854e4902e2207b69e7987b0ccc9caca",
+      "public_sha256": "b36390e4eb0ee77cd1a30858ebaf75308854e4902e2207b69e7987b0ccc9caca",
+      "changes": "none"
+    },
+    {
+      "source_root": "evaluation",
+      "source_path": "round1/data/sample_metadata/Table_S1_sample_metadata.tsv",
+      "public_path": "data/metadata/Table_S1_sample_metadata.tsv",
+      "role": "Public-study metadata supplied to Pantheon",
+      "source_sha256": "ea96d4ae5e4608ddc498d2c8cbc6a198499501b12405b5d851586f9315140ead",
+      "public_sha256": "ea96d4ae5e4608ddc498d2c8cbc6a198499501b12405b5d851586f9315140ead",
+      "changes": "none"
+    },
+    {
+      "source_root": "evaluation",
+      "source_path": "round1/data/sample_metadata/metadata_provenance.json",
+      "public_path": "data/metadata/metadata_provenance.json",
+      "role": "Public-study metadata supplied to Pantheon",
+      "source_sha256": "2d8c35080914af6332a5676535b5bf0a0a31d0ff2f66d9f76e2dbf2f709cf599",
+      "public_sha256": "2d8c35080914af6332a5676535b5bf0a0a31d0ff2f66d9f76e2dbf2f709cf599",
+      "changes": "none"
+    }
+  ]
+}

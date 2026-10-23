@@ -1,0 +1,50 @@
+{
+  "source_label": "pantheon-evaluation-2026-10-22/controller/comparison/compare_saved_analyses.py",
+  "source_sha256": "ebbb360a9b4ad31f458a59ef1930f00ae889d71c53d78230154320f3acedf8a6",
+  "public_path": "scripts/compare_saved_analyses.py",
+  "public_sha256": "51fc4a331ec843941b61ec4cc83e71c916464bfff380cdf1421c3008d999ae41",
+  "modified_lines": 3,
+  "changes": [
+    {
+      "argument": "--evaluation",
+      "previous_default": "Historical evaluation root inferred two parents above the source script",
+      "public_default": "<repository>/work/saved/evaluation"
+    },
+    {
+      "argument": "--original",
+      "previous_default": "Historical workstation-specific original project directory (absolute local path omitted)",
+      "public_default": "<repository>/work/saved/reference"
+    },
+    {
+      "argument": "--output",
+      "previous_default": "Historical source script directory",
+      "public_default": "<repository>/work/comparison"
+    }
+  ],
+  "scientific_code_changes": false,
+  "all_other_bytes_preserved": true,
+  "execution_status": "Comparison and analysis were not executed during public packaging.",
+  "packaging_validation": {
+    "checks": {
+      "helper_real_bundle_extracts": true,
+      "all20_extracted_files_exact": true,
+      "existing_destination_refused": true,
+      "traversal_refused": true,
+      "traversal_left_no_destination": true,
+      "symlink_refused": true,
+      "symlink_left_no_destination": true,
+      "duplicate_refused": true,
+      "duplicate_left_no_destination": true,
+      "bad_member_hash_refused": true,
+      "bad_member_hash_left_no_destination": true,
+      "dangling_symlink_destination_refused": true,
+      "exactly_three_default_lines_changed": true,
+      "original_input_bytes_match_manifest": true,
+      "no_home_paths_in_manifest_or_public_code": true,
+      "temporary_scratch_removed": true
+    },
+    "comparison_or_models_executed": false,
+    "archive_content_SHA256_verified": true,
+    "scratch_removed": true
+  }
+}

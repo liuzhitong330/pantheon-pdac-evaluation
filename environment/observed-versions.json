@@ -1,0 +1,43 @@
+{
+  "scope": "Observed scientific environments used for the saved evaluation. These are dependency records, not a claim that this public package has been replayed in a fresh environment.",
+  "platform": {
+    "system": "macOS",
+    "version": "14.2.1",
+    "architecture": "arm64"
+  },
+  "pantheon_saved_code": {
+    "python": "3.12.14",
+    "python_requirements": "pantheon-python-requirements.txt",
+    "R": "4.4.2",
+    "Bioconductor": "3.20",
+    "R_requested": {
+      "R": "4.4.2",
+      "Bioconductor": "3.20",
+      "BiocVersion": "3.20.0",
+      "edgeR": "4.4.0",
+      "limma": "3.62.0",
+      "statmod": "1.5.0"
+    },
+    "R_transitive": {
+      "locfit": "1.5-9.12",
+      "Rcpp": "1.1.2",
+      "lattice": "0.23-1"
+    },
+    "micromamba": "2.9.0",
+    "R_lock": "r-osx-arm64-explicit.txt",
+    "R_lock_platform": "osx-arm64",
+    "R_source_install_order": [
+      "BiocVersion",
+      "statmod",
+      "limma",
+      "edgeR"
+    ]
+  },
+  "reference_saved_code": {
+    "python": "3.9.6",
+    "python_requirements": "reference-python-requirements.txt",
+    "package_pin_count": 43,
+    "historical_limit": "The 43-package snapshot was inspected from the current original project environment. It is not a contemporaneous complete lock of the original historical run."
+  },
+  "public_package_validation": "Static checks and help output only; no new fitting or clean-environment replay was run during public curation."
+}

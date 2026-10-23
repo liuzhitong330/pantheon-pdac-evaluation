@@ -1,0 +1,23 @@
+analysis_id	role	samples	contains_wu16	source	filter_mode	parent	fdr_family
+primary7_min10_no_wu16	primary	wu03;wu15;wu26;wu27;wu28;wu29;wu42	False	combined	independent		primary7_min10_no_wu16
+qc_original8_min10_with_wu16	qc_sensitivity	wu03;wu15;wu16;wu26;wu27;wu28;wu29;wu42	True	combined	independent		qc_original8_min10_with_wu16
+sensitivity_min5	prespecified_sensitivity	wu03;wu07;wu15;wu16;wu26;wu27;wu28;wu29;wu39;wu42	True	combined	independent		sensitivity_min5
+sensitivity_min20	prespecified_sensitivity	wu03;wu16;wu26;wu27;wu42	True	combined	independent		sensitivity_min20
+classical_min10	prespecified_sensitivity	wu03;wu15;wu16;wu26;wu27;wu28;wu29;wu42	True	classical	independent		classical_min10
+sensitivity_min5_without_wu39	prespecified_sensitivity	wu03;wu07;wu15;wu16;wu26;wu27;wu28;wu29;wu42	True	combined	independent		sensitivity_min5_without_wu39
+sensitivity_min5_without_wu07	prespecified_sensitivity	wu03;wu15;wu16;wu26;wu27;wu28;wu29;wu39;wu42	True	combined	independent		sensitivity_min5_without_wu07
+loo_primary7_without_wu03	influence_diagnostic	wu15;wu26;wu27;wu28;wu29;wu42	False	combined	parent_mask	primary7_min10_no_wu16	NONE_effect_stability_only
+loo_primary7_without_wu15	influence_diagnostic	wu03;wu26;wu27;wu28;wu29;wu42	False	combined	parent_mask	primary7_min10_no_wu16	NONE_effect_stability_only
+loo_primary7_without_wu26	influence_diagnostic	wu03;wu15;wu27;wu28;wu29;wu42	False	combined	parent_mask	primary7_min10_no_wu16	NONE_effect_stability_only
+loo_primary7_without_wu27	influence_diagnostic	wu03;wu15;wu26;wu28;wu29;wu42	False	combined	parent_mask	primary7_min10_no_wu16	NONE_effect_stability_only
+loo_primary7_without_wu28	influence_diagnostic	wu03;wu15;wu26;wu27;wu29;wu42	False	combined	parent_mask	primary7_min10_no_wu16	NONE_effect_stability_only
+loo_primary7_without_wu29	influence_diagnostic	wu03;wu15;wu26;wu27;wu28;wu42	False	combined	parent_mask	primary7_min10_no_wu16	NONE_effect_stability_only
+loo_primary7_without_wu42	influence_diagnostic	wu03;wu15;wu26;wu27;wu28;wu29	False	combined	parent_mask	primary7_min10_no_wu16	NONE_effect_stability_only
+loo_original8_without_wu03	influence_diagnostic	wu15;wu16;wu26;wu27;wu28;wu29;wu42	True	combined	parent_mask	qc_original8_min10_with_wu16	NONE_effect_stability_only
+loo_original8_without_wu15	influence_diagnostic	wu03;wu16;wu26;wu27;wu28;wu29;wu42	True	combined	parent_mask	qc_original8_min10_with_wu16	NONE_effect_stability_only
+loo_original8_without_wu16	influence_diagnostic	wu03;wu15;wu26;wu27;wu28;wu29;wu42	False	combined	parent_mask	qc_original8_min10_with_wu16	NONE_effect_stability_only
+loo_original8_without_wu26	influence_diagnostic	wu03;wu15;wu16;wu27;wu28;wu29;wu42	True	combined	parent_mask	qc_original8_min10_with_wu16	NONE_effect_stability_only
+loo_original8_without_wu27	influence_diagnostic	wu03;wu15;wu16;wu26;wu28;wu29;wu42	True	combined	parent_mask	qc_original8_min10_with_wu16	NONE_effect_stability_only
+loo_original8_without_wu28	influence_diagnostic	wu03;wu15;wu16;wu26;wu27;wu29;wu42	True	combined	parent_mask	qc_original8_min10_with_wu16	NONE_effect_stability_only
+loo_original8_without_wu29	influence_diagnostic	wu03;wu15;wu16;wu26;wu27;wu28;wu42	True	combined	parent_mask	qc_original8_min10_with_wu16	NONE_effect_stability_only
+loo_original8_without_wu42	influence_diagnostic	wu03;wu15;wu16;wu26;wu27;wu28;wu29	True	combined	parent_mask	qc_original8_min10_with_wu16	NONE_effect_stability_only

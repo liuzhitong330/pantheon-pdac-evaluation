@@ -1,0 +1,30 @@
+[
+  {
+    "package": "BiocVersion",
+    "version": "3.20.0",
+    "filename": "BiocVersion_3.20.0.tar.gz",
+    "url": "https://bioconductor.posit.co/packages/3.20/bioc/src/contrib/BiocVersion_3.20.0.tar.gz",
+    "sha256": "9de14e40e3f085da92bc9f375ee6e1a81b8676b43882a45a3abf84faf94db6c7"
+  },
+  {
+    "package": "statmod",
+    "version": "1.5.0",
+    "filename": "statmod_1.5.0.tar.gz",
+    "url": "https://cran.r-project.org/src/contrib/Archive/statmod/statmod_1.5.0.tar.gz",
+    "sha256": "d61c3ef9b09d55b42e038f8d767fa483ebbdec2a9c7172b1b0ccda0ae0016ec9"
+  },
+  {
+    "package": "limma",
+    "version": "3.62.0",
+    "filename": "limma_3.62.0.tar.gz",
+    "url": "https://bioconductor.posit.co/packages/3.20/bioc/src/contrib/Archive/limma/limma_3.62.0.tar.gz",
+    "sha256": "b495187b6d3fffd8fbfc50ac464505553bdaf7e3cf1f2289276bd01dfc8cf6e8"
+  },
+  {
+    "package": "edgeR",
+    "version": "4.4.0",
+    "filename": "edgeR_4.4.0.tar.gz",
+    "url": "https://bioconductor.posit.co/packages/3.20/bioc/src/contrib/Archive/edgeR/edgeR_4.4.0.tar.gz",
+    "sha256": "6712e35f54b79b960fbe7452594124f3242371199efd8ebb0b0a168b809ed140"
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "GSE242230_sample_records.soft": {
+    "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE242nnn/GSE242230/soft/GSE242230_family.soft.gz",
+    "extraction": "Unchanged decoded text from first ^SAMPLE record to end of GEO family SOFT. Series-level abstract and platform metadata omitted. All 25 sample blocks retained.",
+    "source_sha256": "957c7628e04564bc13367ea5c7f50ff4c44b6ec29401b492fe7d13b3c26cf2eb"
+  },
+  "Table_S1_sample_metadata.tsv": {
+    "source_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41698-023-00455-z/MediaObjects/41698_2023_455_MOESM2_ESM.xlsx",
+    "sheet": "Table S1",
+    "range": "A1:N40",
+    "extraction": "All cell values extracted in row/column order as tab-separated UTF-8; blank cells retained as empty fields. No added columns, mappings, filtering or inferred values.",
+    "source_sha256": "0ec15bd100cceab241e5bab52644f51e04106d033527ff92fd801c920ced80ea"
+  }
+}
